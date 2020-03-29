@@ -1,0 +1,9 @@
+@import "../../common/vendor.wxss";
+
+.withdrawal-container.data-v-26c52db2 {
+  padding: 0 32rpx;
+  border-top: 1rpx solid #ebebeb;
+}
+.withdrawal-container .withdrawal-content__list.data-v-26c52db2 {
+  margin-bottom: 68rpx;
+}

@@ -1,0 +1,152 @@
+@import "../../common/vendor.wxss";
+
+.msg-container.data-v-21aca81a {
+  border-top: 1rpx solid #ebebeb;
+}
+.msg-container .msg-container__header.data-v-21aca81a {
+  font-size: 20rpx;
+  font-weight: 500;
+  border-bottom: 1rpx solid #ebebeb;
+  padding: 23rpx 32rpx;
+}
+.msg-container .msg-container__content.data-v-21aca81a {
+  padding: 0 32rpx;
+}
+.msg-container .msg-container__content .msg-content__item.data-v-21aca81a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+}
+.msg-container .msg-container__content .msg-content__item .msg-item__list.data-v-21aca81a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.msg-container .msg-container__content .msg-content__item .msg-item__list .msg-item__icon.data-v-21aca81a {
+  width: 48rpx;
+  height: 48rpx;
+}
+.msg-container .msg-container__content .msg-content__item .msg-item__list .msg-item__icon > ._img.data-v-21aca81a {
+  width: 100%;
+  height: 100%;
+}
+.msg-container .msg-container__content .msg-content__item .msg-item__list .msg-item__attent.data-v-21aca81a {
+  margin-left: 31rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.msg-container .msg-container__content .msg-content__item .msg-item__num.data-v-21aca81a {
+  padding: 8rpx;
+  background: #FF0000;
+  border-radius: 180rpx;
+  font-weight: 500;
+  font-size: 16rpx;
+  min-width: 20rpx;
+  height: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.title.data-v-cc939596 {
+  margin: 60rpx 0 30rpx;
+  font-size: 40rpx;
+  text-align: center;
+  font-weight: bold;
+  color: #383A3D;
+}
+.product-list .product-item.data-v-cc939596 {
+  position: relative;
+  width: 100vw;
+  border-bottom: 2rpx solid #E9E9E9;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 999;
+}
+.slide-product-list .slide-product-item.data-v-cc939596 {
+  position: relative;
+  width: 100vw;
+  border-bottom: 2rpx solid #E9E9E9;
+  box-sizing: border-box;
+  background: #fff;
+  z-index: 999;
+}
+.product-list .product-item movable-area.data-v-cc939596 {
+  height: 120rpx;
+  width: calc(100vw - 120rpx);
+}
+.product-list .product-item movable-view.data-v-cc939596 {
+  height: 120rpx;
+  width: 100vw;
+  background: #fff;
+  z-index: 999;
+}
+.product-list .product-item .delete-btn.data-v-cc939596 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 120rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  line-height: 120rpx;
+  z-index: 1;
+  background: #E66671;
+  text-align: center;
+}
+.product-list .product-item-wrap.data-v-cc939596 {
+  position: relative;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  height: 100%;
+}
+.product-list .product-item-wrap .movable-list__item.data-v-cc939596 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__user.data-v-cc939596 {
+  display: inline-flex;
+  align-items: center;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__user .item-user__avatar.data-v-cc939596 {
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 180rpx;
+  overflow: hidden;
+  background-color: #E66671;
+  flex-shrink: 0;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__user .item-user__avatar > ._img.data-v-cc939596 {
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 180rpx;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__user .item-user__userInfo.data-v-cc939596 {
+  font-size: 20rpx;
+  color: #000;
+  font-weight: 500;
+  padding: 0 20rpx;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__user .item-user__userInfo .user-userInfo__nickname.data-v-cc939596 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__user .item-user__userInfo .user-userInfo__content.data-v-cc939596 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #999;
+}
+.product-list .product-item-wrap .movable-list__item .movable-item__time.data-v-cc939596 {
+  color: #999;
+  font-size: 20rpx;
+  font-weight: 500;
+}

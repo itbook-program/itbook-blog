@@ -1,0 +1,12 @@
+<import src="/components/CustomTabs/index.vue.wxml" />
+<import src="/pages/myArticle/components/public.vue.wxml" />
+<import src="/pages/myArticle/components/private.vue.wxml" />
+<import src="/pages/myArticle/components/audit.vue.wxml" /><template name="38816eeb">
+  <view class="_div data-v-41dcf996"><template bindcheckedItem="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="a05445d8"></template>
+    <view class="_div data-v-41dcf996 tab-items">
+      <view wx:if="{{tabIndex === 0}}" class="_div data-v-41dcf996"><template data="{{...$root[$kk+'1'], $root}}" is="b1af7fca"></template></view>
+      <view wx:elif="{{tabIndex === 1}}" class="_div data-v-41dcf996"><template data="{{...$root[$kk+'2'], $root}}" is="1335cb7e"></template></view>
+      <view wx:elif="{{tabIndex === 2}}" class="_div data-v-41dcf996"><template data="{{...$root[$kk+'3'], $root}}" is="fe7553ce"></template></view>
+    </view>
+  </view>
+</template>

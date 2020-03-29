@@ -1,0 +1,27 @@
+<template name="ee08776c">
+  <view class="_div data-v-cc939596">
+    <view class="_div data-v-cc939596 product-list">
+      <view class="_div data-v-cc939596 product-item" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}" wx:for="{{productList}}" wx:for-index="index" wx:for-item="item">
+        <movable-area class="_movable-area data-v-cc939596">
+          <movable-view out-of-bounds="true" direction="horizontal" x="{{item.xmove}}" inertia="true" data-productIndex="{{index}}" bindtouchstart="handleProxy" bindtouchend="handleProxy" bindchange="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" class="_movable-view data-v-cc939596">
+            <view class="_div data-v-cc939596 product-item-wrap">
+              <view class="_div data-v-cc939596 movable-list__item">
+                <view class="_div data-v-cc939596 movable-item__user">
+                  <view class="_div data-v-cc939596 item-user__avatar">
+                    <image class="_img data-v-cc939596"></image>
+                  </view>
+                  <view class="_div data-v-cc939596 item-user__userInfo">
+                    <view class="_div data-v-cc939596 user-userInfo__nickname">小呆呆</view>
+                    <view class="_div data-v-cc939596 user-userInfo__content">t写的很好，可否加个微信</view>
+                  </view>
+                </view>
+                <view class="_div data-v-cc939596 movable-item__time">2019.04.03 18:55</view>
+              </view>
+            </view>
+          </movable-view>
+        </movable-area>
+        <view class="_div data-v-cc939596 delete-btn" data-id="{{item.id}}" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}">删除</view>
+      </view>
+    </view>
+  </view>
+</template>

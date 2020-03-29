@@ -1,0 +1,37 @@
+@import "../../common/vendor.wxss";
+
+.ptf-history__container.data-v-74aff780 {
+  padding: 0 32rpx;
+}
+.ptf-history__container .ptf-history__item.data-v-74aff780 {
+  border-bottom: 1rpx solid #ebebeb;
+}
+.ptf-history__container .ptf-history__item .ptf-history__title.data-v-74aff780 {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  margin-top: 24rpx;
+}
+.ptf-history__container .ptf-history__item .ptf-history__title.data-v-74aff780:first-child {
+  padding-top: 0;
+}
+.ptf-history__container .ptf-history__item .ptf-history__user.data-v-74aff780 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20rpx;
+  color: #000;
+  font-weight: 500;
+  padding: 24rpx 0;
+}
+.ptf-history__container .ptf-history__item .ptf-history__user .history-user__date.data-v-74aff780 {
+  color: #999;
+}
+.loadMore-container.data-v-201fd9f3 {
+  margin: 0 auto;
+  padding: 28rpx 0;
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #1ea473;
+  text-align: center;
+}

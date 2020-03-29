@@ -1,0 +1,32 @@
+<import src="/components/CustomWaveform/index.vue.wxml" /><template name="e391b36a">
+  <view class="_div data-v-653a1a40 video-container">
+    <view class="_div data-v-653a1a40 audio-wrap">
+      <view wx:if="{{!audioUrl}}" class="_div data-v-653a1a40 video-noConent">
+        {{!onProgress ? '音频未上传':'上传进度:' + onProgress }}
+      </view>
+      <view wx:else class="_div data-v-653a1a40 audio-wrap audio-wrap__listen">
+        <view class="_div data-v-653a1a40 audio-listen__time">{{duringTime}}/{{totalTime}}</view> <template data="{{...$root[$kk+'0'], $root}}" is="52cd4c93"></template>
+        <view class="_div data-v-653a1a40 audio-listen__button" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label wx:if="{{player === 'start' || player === 'paused'}}" class="_span data-v-653a1a40">播放</label><label wx:elif="{{player === 'running'}}" class="_span data-v-653a1a40">暂停</label></view>
+      </view>
+    </view>
+    <view class="_div data-v-653a1a40 video-footer">
+      <view class="_div data-v-653a1a40 video-opera">
+        <view class="_div data-v-653a1a40 release-opera__save" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">音频文件</view>
+        <view class="_div data-v-653a1a40 video-opera__submit" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">音频录制</view>
+      </view>
+    </view>
+    <view wx:if="{{audioOpera}}" class="_div data-v-653a1a40 mask-container">
+      <view class="_div data-v-653a1a40 mask-audio__wrapper">
+        <view class="_div data-v-653a1a40 mask-audio__title"><label wx:if="{{audioType === 0}}" class="_span data-v-653a1a40">点击开始录音</label><label wx:else class="_span data-v-653a1a40">{{timeCount}}</label></view>
+        <view wx:if="{{audioType < 2}}" class="_div data-v-653a1a40 mask-audio__opera">
+          <image wx:if="{{audioType === 0}}" class="_image data-v-653a1a40 audo-opera__icon" bindtap="handleProxy" src="{{audoStartIcon}}" data-eventid="{{'3'}}" data-comkey="{{$k}}"></image>
+          <image wx:if="{{audioType === 1}}" class="_image data-v-653a1a40 audo-opera__icon" bindtap="handleProxy" src="{{audioStopIcon}}" data-eventid="{{'4'}}" data-comkey="{{$k}}"></image>
+        </view>
+        <view wx:else class="_div data-v-653a1a40 mask-audio__opera is-complete">
+          <image class="_image data-v-653a1a40 audo-opera__icon" src="{{audioNoIcon}}" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}"></image>
+          <image class="_image data-v-653a1a40 audo-opera__icon" src="{{audioYesIcon}}" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

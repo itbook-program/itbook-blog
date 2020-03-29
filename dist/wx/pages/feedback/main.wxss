@@ -1,0 +1,27 @@
+@import "../../common/vendor.wxss";
+
+.feedback-container .feedback-content__container.data-v-c6a57e22 {
+  border-top: 1rpx solid #EBEBEB;
+  padding: 0 32rpx;
+}
+.feedback-container .feedback-content__container .feedback-content__title.data-v-c6a57e22 {
+  font-size: 20rpx;
+  padding: 25rpx 0;
+}
+.feedback-container .feedback-content__container .feedback-content__title .feedback-title__concat.data-v-c6a57e22 {
+  height: 100%;
+  width: 100%;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.feedback-container .feedback-content__container .feedback-content__text.data-v-c6a57e22 {
+  border-top: 1rpx solid #EBEBEB;
+  border-bottom: 1rpx solid #EBEBEB;
+  padding: 32rpx 0;
+}
+.feedback-container .feedback-content__container .feedback-content__text > ._textarea.data-v-c6a57e22 {
+  width: 100%;
+}
+.feedback-container .feedback-content__container .feedback-content__button.data-v-c6a57e22 {
+  margin: 70rpx 0;
+}

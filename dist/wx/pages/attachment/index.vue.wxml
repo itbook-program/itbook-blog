@@ -1,0 +1,20 @@
+<template name="b72de2d0">
+  <view class="_div data-v-73024d66 article-container">
+    <view class="_div data-v-73024d66 article-attachment">
+      <view class="_div data-v-73024d66 attach-item" wx:key="index" key="{{index}}" wx:for="{{attachData}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-73024d66 attach-item__header">
+          <view class="_div data-v-73024d66 attach-item__text">{{item.name}}</view>
+          <view class="_div data-v-73024d66 attach-item__text">{{ item.size }} MB</view>
+        </view>
+        <view wx:if="{{!attachType}}" class="_div data-v-73024d66 attach-item__text item-info" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}">删除</view>
+        <view wx:if="{{attachType}}" class="_div data-v-73024d66 attach-item__text item-info" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}">预览</view>
+        <view wx:if="{{attachType}}" class="_div data-v-73024d66 attach-item__text item-info" bindtap="handleProxy" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}">下载</view>
+      </view>
+    </view>
+    <view wx:if="{{!attachType}}" class="_div data-v-73024d66 ptf-release__footer">
+      <view class="_div data-v-73024d66 ptf-release__opera">
+        <view class="_div data-v-73024d66 release-opera__submit" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">添加附件</view>
+      </view>
+    </view>
+  </view>
+</template>

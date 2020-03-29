@@ -1,0 +1,41 @@
+<import src="/components/CustomTags/index.vue.wxml" /><template name="588b2ecd">
+  <view class="_div data-v-19fd7e82 me-container">
+    <view class="_div data-v-19fd7e82 me-content__container">
+      <view class="_div data-v-19fd7e82 me-header__wrapper">
+        <view class="_div data-v-19fd7e82 me-header__user">
+          <view class="_div data-v-19fd7e82 me-header__name" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">{{user.nickName}}</view>
+          <view class="_div data-v-19fd7e82 me-header__intro">{{user.sign}}</view>
+          <view class="_div data-v-19fd7e82 me-header__opera">
+            <view class="_div data-v-19fd7e82 me-header__tag"><template title="作家" data="{{...$root[$kk+'0'], $root}}" is="5363d022"></template></view>
+            <view class="_div data-v-19fd7e82 me-header__writer" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">成为作家>></view>
+          </view>
+        </view>
+        <view class="_div data-v-19fd7e82 me-header__avatar">
+          <image src="{{user.avatarUrl}}" class="_img data-v-19fd7e82"></image>
+        </view>
+      </view>
+      <view class="_div data-v-19fd7e82 me-msg__wrapper">
+        <view class="_div data-v-19fd7e82 me-msg__item" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-19fd7e82 msg-item__num">{{countInfo.articles || 0}}</view>
+          <view class="_div data-v-19fd7e82 msg-item__text">文章</view>
+        </view>
+        <view class="_div data-v-19fd7e82 me-msg__item" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-19fd7e82 msg-item__num">{{countInfo.likes || 0}}</view>
+          <view class="_div data-v-19fd7e82 msg-item__text">喜欢</view>
+        </view>
+        <view class="_div data-v-19fd7e82 me-msg__item" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-19fd7e82 msg-item__num">{{countInfo.focus || 0}}</view>
+          <view class="_div data-v-19fd7e82 msg-item__text">关注</view>
+        </view>
+      </view>
+      <view class="_div data-v-19fd7e82 me-list__wrapper">
+        <view wx:key="item" key="{{item}}" class="_div data-v-19fd7e82 list-wrapper__items" bindtap="handleProxy" data-eventid="{{'5_'+index}}" data-comkey="{{$k}}" wx:for="{{listItem}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-19fd7e82 list-item__icon">
+            <image src="{{icons[index]}}" class="_img data-v-19fd7e82"></image>
+          </view>
+          <view class="_div data-v-19fd7e82 list-item__value">{{item.value}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/roomChat/index.vue.wxml" /><template is="73edbac8" data="{{ ...$root['0'], $root }}"/>

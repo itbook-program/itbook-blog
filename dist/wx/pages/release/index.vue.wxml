@@ -1,0 +1,78 @@
+<template name="93accaf0">
+  <view class="_div data-v-0fadd3f3 ptf-release__container">
+    <view class="_div data-v-0fadd3f3 ptf-release__title"><input value="{{title}}" bindinput="handleProxy" placeholder="请输入文章标题" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-0fadd3f3" /></view>
+    <view class="_div data-v-0fadd3f3 ptf-release__content">
+      <editor id="editor" class="_editor data-v-0fadd3f3 ql-container" placeholder="请编辑正文" showImgSize showImgToolbar showImgResize bindstatuschange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></editor>
+    </view>
+    <view class="_div data-v-0fadd3f3 ptf-release__footer">
+      <view wx:if="{{moreItem}}" class="_div data-v-0fadd3f3 ptf-scroll__wrap">
+        <scroll-view scroll-x enable-flex scroll-into-view="{{scrollId}}" bindscroll="handleProxy" class="_scroll-view data-v-0fadd3f3 ptf-scroll__buttoms" data-eventid="{{'10'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'bold'}}" src="{{boldActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{boldIcon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'italic'}}" src="{{italicActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{italicIcon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'underline'}}" src="{{underlineActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{underlineIcon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'H1'}}" src="{{H1ActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{H1Icon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'H2'}}" src="{{H2ActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{H2Icon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'H3'}}" src="{{H3ActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{H3Icon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'8'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'H4'}}" src="{{H4ActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{H4Icon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+          <view id="endView" class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'9'}}" data-comkey="{{$k}}">
+            <image wx:if="{{activeIndex === 'H5'}}" src="{{H5ActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+            <image wx:else src="{{H5Icon}}" class="_image data-v-0fadd3f3"></image>
+          </view>
+        </scroll-view>
+        <view class="_div data-v-0fadd3f3 ptf-scroll__next" bindtap="handleProxy" data-eventid="{{'11'}}" data-comkey="{{$k}}">
+          <image src="{{rightIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+      </view>
+      <view class="_div data-v-0fadd3f3 ptf-release__buttoms">
+        <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'12'}}" data-comkey="{{$k}}">
+          <image wx:if="{{videoPath}}" src="{{videoActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+          <image wx:elif="{{audioPath}}" src="{{videoDisableIcon}}" class="_image data-v-0fadd3f3"></image>
+          <image wx:else src="{{videoIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+        <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'13'}}" data-comkey="{{$k}}">
+          <image wx:if="{{audioPath}}" src="{{audioActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+          <image wx:elif="{{!audioPath && !videoPath}}" src="{{audioIcon}}" class="_image data-v-0fadd3f3"></image>
+          <image wx:else src="{{audioDisableIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+        <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'14'}}" data-comkey="{{$k}}">
+          <image src="{{imageIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+        <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'15'}}" data-comkey="{{$k}}">
+          <image wx:if="{{!moreItem}}" src="{{fontIcon}}" class="_image data-v-0fadd3f3"></image>
+          <image wx:else src="{{fontActiveIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+        <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'16'}}" data-comkey="{{$k}}">
+          <image src="{{undoIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+        <view class="_div data-v-0fadd3f3 release-buttom__item" bindtap="handleProxy" data-eventid="{{'17'}}" data-comkey="{{$k}}">
+          <image src="{{restoreIcon}}" class="_image data-v-0fadd3f3"></image>
+        </view>
+      </view>
+      <view class="_div data-v-0fadd3f3 ptf-release__opera">
+        <view class="_div data-v-0fadd3f3 release-opera__save" bindtap="handleProxy" data-eventid="{{'18'}}" data-comkey="{{$k}}">存草稿</view>
+        <view class="_div data-v-0fadd3f3 release-opera__submit" bindtap="handleProxy" data-eventid="{{'19'}}" data-comkey="{{$k}}">文章预览</view>
+      </view>
+    </view>
+  </view>
+</template>

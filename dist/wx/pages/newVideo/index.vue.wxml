@@ -1,0 +1,16 @@
+<template name="380ad4b0">
+  <view class="_div data-v-0f0dc8a5 video-container">
+    <view class="_div data-v-0f0dc8a5 video-wrap">
+      <view wx:if="{{!videoPath}}" class="_div data-v-0f0dc8a5 video-noConent">
+        {{!onProgress ? '视频未上传':'上传进度:' + onProgress }}
+      </view><video wx:else src="{{videoUrl + videoPath}}" class="_video data-v-0f0dc8a5 video-wrap__controls"></video>
+    </view>
+    <view class="_div data-v-0f0dc8a5 video-footer">
+      <view class="_div data-v-0f0dc8a5 video-opera">
+        <view class="_div data-v-0f0dc8a5 video-opera__submit" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+          {{videoPath ? '删除视频' : '上传视频' }}
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+<import src="/components/CustomCells/index.vue.wxml" />
+<import src="/components/CustomButtons/index.vue.wxml" /><template name="680c4588">
+  <view class="_div data-v-26c52db2 withdrawal-container">
+    <view class="_div data-v-26c52db2 withdrawal-content__list"><template title="个人信息" type="title" data="{{...$root[$kk+'0'], $root}}" is="023ed091"></template> <template title="姓名" value="{{formData.userName}}" bindchange="handleProxy" type="text" placeholder="请输入姓名" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="023ed091"></template> <template title="身份证号码" value="{{formData.IDCard}}" bindchange="handleProxy" type="text" placeholder="请输入身份证号码" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'2'], $root}}" is="023ed091"></template> <template title="手机号码" value="{{formData.phone}}" bindchange="handleProxy" type="text" placeholder="请输入手机号码" data-eventid="{{'2'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'3'], $root}}" is="023ed091"></template></view> <template wx:if="{{!isWriter}}" text="提 交" data="{{...$root[$kk+'4'], $root}}" is="8ca5a8fe"></template>
+  </view>
+</template>

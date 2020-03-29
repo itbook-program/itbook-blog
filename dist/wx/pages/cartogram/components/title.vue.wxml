@@ -1,0 +1,6 @@
+<template name="50e7251a">
+  <view class="_div data-v-577ad18f title-container">
+    <view class="_div data-v-577ad18f title-wrap">{{title}}</view>
+    <view class="_div data-v-577ad18f title-subhead">{{info}}</view>
+  </view>
+</template>

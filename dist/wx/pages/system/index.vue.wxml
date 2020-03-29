@@ -1,0 +1,8 @@
+<template name="20e265a4">
+  <view class="_div data-v-3c8bd2d9 system-container">
+    <view wx:key="index" key="{{index}}" bindtap="handleProxy" bindtouchstart="handleProxy" bindtouchend="handleProxy" bindlongtap="handleProxy" class="_div data-v-3c8bd2d9 system-content__wrap" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-3c8bd2d9 system-wrap__item">{{item.name}}</view>
+      <view class="_div data-v-3c8bd2d9 system-wrap__item item-value"><label wx:if="{{item.name === '联系客服'}}" class="_span data-v-3c8bd2d9 item-telNumber">{{item.value}}</label><label wx:else class="_span data-v-3c8bd2d9 item-normal">{{item.value}}</label></view>
+    </view>
+  </view>
+</template>

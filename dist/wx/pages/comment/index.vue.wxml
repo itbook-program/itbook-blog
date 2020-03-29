@@ -1,0 +1,89 @@
+<template name="fca75a40">
+  <view class="_div data-v-499ee76a comment-container">
+    <view class="_div data-v-499ee76a comment-container__item">
+      <view class="_div data-v-499ee76a comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-499ee76a"></image>
+      </view>
+      <view class="_div data-v-499ee76a comment-wrapper__content">
+        <view class="_div data-v-499ee76a comment-wrapper__user">
+          <view class="_div data-v-499ee76a comment-user__username">小呆呆</view>
+          <view class="_div data-v-499ee76a comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-499ee76a comment-wrapper__text"> 基础讲的好详细，是一篇适合小白的好文章。基础讲的好详细，是一篇适合小白的好文章。 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__info"> 博客系统设计--小程序设计 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__opera">
+          <view class="_div data-v-499ee76a comment-opera__num">评论（20）</view>
+          <view class="_div data-v-499ee76a comment-opera__del">删除</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-499ee76a comment-container__item">
+      <view class="_div data-v-499ee76a comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-499ee76a"></image>
+      </view>
+      <view class="_div data-v-499ee76a comment-wrapper__content">
+        <view class="_div data-v-499ee76a comment-wrapper__user">
+          <view class="_div data-v-499ee76a comment-user__username">小呆呆</view>
+          <view class="_div data-v-499ee76a comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-499ee76a comment-wrapper__text"> 基础讲的好详细，是一篇适合小白的好文章。基础讲的好详细，是一篇适合小白的好文章。 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__info"> 博客系统设计--小程序设计 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__opera">
+          <view class="_div data-v-499ee76a comment-opera__num">评论（20）</view>
+          <view class="_div data-v-499ee76a comment-opera__del">删除</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-499ee76a comment-container__item">
+      <view class="_div data-v-499ee76a comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-499ee76a"></image>
+      </view>
+      <view class="_div data-v-499ee76a comment-wrapper__content">
+        <view class="_div data-v-499ee76a comment-wrapper__user">
+          <view class="_div data-v-499ee76a comment-user__username">小呆呆</view>
+          <view class="_div data-v-499ee76a comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-499ee76a comment-wrapper__text"> 基础讲的好详细，是一篇适合小白的好文章。基础讲的好详细，是一篇适合小白的好文章。 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__info"> 博客系统设计--小程序设计 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__opera">
+          <view class="_div data-v-499ee76a comment-opera__num">评论（20）</view>
+          <view class="_div data-v-499ee76a comment-opera__del">删除</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-499ee76a comment-container__item">
+      <view class="_div data-v-499ee76a comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-499ee76a"></image>
+      </view>
+      <view class="_div data-v-499ee76a comment-wrapper__content">
+        <view class="_div data-v-499ee76a comment-wrapper__user">
+          <view class="_div data-v-499ee76a comment-user__username">小呆呆</view>
+          <view class="_div data-v-499ee76a comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-499ee76a comment-wrapper__text"> 基础讲的好详细，是一篇适合小白的好文章。基础讲的好详细，是一篇适合小白的好文章。 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__info"> 博客系统设计--小程序设计 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__opera">
+          <view class="_div data-v-499ee76a comment-opera__num">评论（20）</view>
+          <view class="_div data-v-499ee76a comment-opera__del">删除</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-499ee76a comment-container__item">
+      <view class="_div data-v-499ee76a comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-499ee76a"></image>
+      </view>
+      <view class="_div data-v-499ee76a comment-wrapper__content">
+        <view class="_div data-v-499ee76a comment-wrapper__user">
+          <view class="_div data-v-499ee76a comment-user__username">小呆呆</view>
+          <view class="_div data-v-499ee76a comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-499ee76a comment-wrapper__text"> 基础讲的好详细，是一篇适合小白的好文章。基础讲的好详细，是一篇适合小白的好文章。 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__info"> 博客系统设计--小程序设计 </view>
+        <view class="_div data-v-499ee76a comment-wrapper__opera">
+          <view class="_div data-v-499ee76a comment-opera__num">评论（20）</view>
+          <view class="_div data-v-499ee76a comment-opera__del">删除</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

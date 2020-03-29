@@ -1,0 +1,60 @@
+@import "../../common/vendor.wxss";
+
+.article-container .attach-search__wrap.data-v-99aae1f6 {
+  width: 100%;
+  height: 70rpx;
+  background: whitesmoke;
+  border-radius: 60rpx;
+  display: flex;
+  align-items: center;
+  margin: 24rpx 0;
+}
+.article-container .attach-search__wrap .header-container__search.data-v-99aae1f6 {
+  width: 43rpx;
+  height: 48rpx;
+  flex-shrink: 0;
+  margin: 0 20rpx;
+}
+.article-container .attach-search__wrap .header-container__input.data-v-99aae1f6 {
+  width: 100%;
+  padding: 10rpx 0;
+}
+.article-container .article-attachment.data-v-99aae1f6 {
+  border-top: 1rpx solid #EBEBEB;
+  padding: 0 32rpx;
+}
+.article-container .article-attachment .attach-item.data-v-99aae1f6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120rpx;
+  border-bottom: 1rpx solid #EBEBEB;
+}
+.article-container .article-attachment .attach-item .attach-item__header.data-v-99aae1f6 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.article-container .article-attachment .attach-item .attach-item__image.data-v-99aae1f6 {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 32rpx;
+}
+.article-container .article-attachment .attach-item .attach-item__text.data-v-99aae1f6 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.article-container .article-attachment .attach-item .item-info.data-v-99aae1f6 {
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #999999;
+  flex-shrink: 0;
+}
+.article-container .article-attachment .attach-item .item-info > image.data-v-99aae1f6 {
+  width: 48rpx;
+  height: 48rpx;
+}

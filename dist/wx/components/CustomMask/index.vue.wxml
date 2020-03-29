@@ -1,0 +1,5 @@
+<import src="/components/slots" /><template name="5e6bbf02">
+  <view class="_div data-v-29415d6d mask-container" bindtouchmove="handleProxy" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><template name="default">
+      <view class="_div data-v-29415d6d"></view>
+    </template><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view>
+</template>

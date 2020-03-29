@@ -1,0 +1,5 @@
+@import "../../common/vendor.wxss";
+
+.bookMark-container.data-v-2e318ec3 {
+  padding: 0 32rpx;
+}

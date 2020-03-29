@@ -1,0 +1,5 @@
+<template name="6fc576be">
+  <view class="_div data-v-201fd9f3 loadMore-container">
+    {{chooseText ? '内容加载中...':'内容加载完成'}}
+  </view>
+</template>

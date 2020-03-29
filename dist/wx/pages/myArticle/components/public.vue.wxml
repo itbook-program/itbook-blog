@@ -1,0 +1,32 @@
+<template name="b1af7fca">
+  <view class="_div data-v-730a2246">
+    <view class="_div data-v-730a2246 ptf-list__container">
+      <view wx:key="index" key="{{index}}" class="_div data-v-730a2246 ptf-list__wrapper" wx:for="{{itemData}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-730a2246 list-item__title">{{item.title}}</view>
+        <view class="_div data-v-730a2246 list-item__content">
+          <view class="_div data-v-730a2246 item-content__text">{{item.contentText}}</view>
+          <view class="_div data-v-730a2246 item-content__cover"><video play-btn-position="center" object-fit="fill" wx:if="{{item.resourceType === 1}}" src="{{videoUrl + item.cover}}" class="_video data-v-730a2246"></video>
+            <image src="{{item.cover}}" class="_img data-v-730a2246"></image>
+          </view>
+        </view>
+        <view class="_div data-v-730a2246 list-item__opera">
+          <view class="_div data-v-730a2246 item-opera__wrapper">
+            <view class="_div data-v-730a2246 opera-opera__icon">
+              <image src="{{viewIcon}}" class="_img data-v-730a2246"></image>
+            </view>
+            <view class="_div data-v-730a2246 opera-item__num">{{item.looks}}</view>
+          </view>
+          <view class="_div data-v-730a2246 item-opera__wrapper">
+            <view class="_div data-v-730a2246 opera-opera__icon">
+              <image src="{{likeIcon}}" class="_img data-v-730a2246"></image>
+            </view>
+            <view class="_div data-v-730a2246 opera-item__num">{{item.likes}}</view>
+          </view>
+          <view class="_div data-v-730a2246 item-opera__wrapper">
+            <view class="_div data-v-730a2246 opera-item__num">{{item.updateAt}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

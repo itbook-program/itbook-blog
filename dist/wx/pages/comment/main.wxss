@@ -1,0 +1,55 @@
+@import "../../common/vendor.wxss";
+
+.comment-container.data-v-499ee76a {
+  padding: 32rpx;
+}
+.comment-container .comment-container__item.data-v-499ee76a {
+  width: 100%;
+  display: flex;
+  border-bottom: 1rpx solid #EBEBEB;
+  padding-top: 25rpx;
+}
+.comment-container .comment-wrapper__avatar.data-v-499ee76a {
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}
+.comment-container .comment-wrapper__avatar > ._img.data-v-499ee76a {
+  width: 42rpx;
+  height: 42rpx;
+}
+.comment-container .comment-wrapper__content.data-v-499ee76a {
+  flex: 1;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user.data-v-499ee76a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user .comment-user__username.data-v-499ee76a {
+  font-size: 20rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user .comment-user__time.data-v-499ee76a {
+  font-size: 20rpx;
+  color: #999;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__text.data-v-499ee76a {
+  font-size: 28rpx;
+  color: #333;
+  margin: 26rpx 0;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__info.data-v-499ee76a {
+  background: whitesmoke;
+  border-radius: 16rpx;
+  padding: 17rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__opera.data-v-499ee76a {
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 0;
+  font-size: 20rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__opera .comment-opera__del.data-v-499ee76a {
+  color: #1EA473;
+}

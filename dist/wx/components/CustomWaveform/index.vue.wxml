@@ -1,0 +1,3 @@
+<template name="52cd4c93">
+  <view class="_div data-v-6387bd7e custom-waveform__container"><label wx:key="n" key="{{n}}" wx:for="{{50}}" wx:for-index="index" wx:for-item="n" class="_span data-v-6387bd7e {{playerState}}"></label></view>
+</template>

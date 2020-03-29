@@ -1,0 +1,4 @@
+<template name="5363d022">
+  <view wx:if="{{type==='attent'}}" class="_div data-v-bdb8934c custom-tag">{{title}}</view>
+  <view wx:elif="{{type==='attent-active'}}" class="_div data-v-bdb8934c custom-tag custom-tag__unAttent">{{title}}</view>
+</template>

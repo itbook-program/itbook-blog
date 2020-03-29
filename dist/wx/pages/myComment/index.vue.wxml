@@ -1,0 +1,41 @@
+<template name="2532bdd8">
+  <view class="_div data-v-127ba882 comment-container">
+    <view wx:key="index" key="{{index}}" wx:for="{{userComment}}" wx:for-index="index" wx:for-item="userItem" class="_div data-v-127ba882">
+      <view class="_div data-v-127ba882 comment-container__item">
+        <view class="_div data-v-127ba882 comment-wrapper__avatar">
+          <image wx:if="{{userItem.critics && userItem.critics.avatarUrl}}" src="{{userItem.critics.avatarUrl}}" class="_img data-v-127ba882"></image>
+          <image wx:elif="{{userItem.content.critics && userItem.content.critics.avatarUrl}}" src="{{userItem.content.critics.avatarUrl}}" class="_img data-v-127ba882"></image>
+        </view>
+        <view class="_div data-v-127ba882 comment-wrapper__content">
+          <view class="_div data-v-127ba882 comment-wrapper__text"><label wx:if="{{userItem.content && userItem.content.content}}" class="_span data-v-127ba882">{{userItem.content.content}}</label><label wx:elif="{{userItem.content}}" class="_span data-v-127ba882">{{userItem.content}}</label></view>
+          <view wx:if="{{userItem.article}}" class="_div data-v-127ba882 comment-wrapper__info">
+            <view class="_div data-v-127ba882 comment-wrapper__title"><label wx:if="{{userItem.article}}" class="_span data-v-127ba882">{{userItem.article.title}}</label><label wx:elif="{{userItem.content.article}}" class="_span data-v-127ba882">{{userItem.content.article.title}}</label></view>
+            <view class="_div data-v-127ba882 comment-wrapper__name" wx:if="{{userItem.article && userItem.article.user && userItem.article.user.nickName}}">{{userItem.article.user.nickName}}</view>
+            <view class="_div data-v-127ba882 comment-wrapper__name" wx:elif="{{userItem.content && userItem.content.article && userItem.content.article.user && userItem.content.article.user.nickName}}">{{userItem.content.article.user.nickName}}</view>
+          </view>
+          <view class="_div data-v-127ba882 comment-wrapper__opera">
+            <view class="_div data-v-127ba882 comment-opera__num">评论 ( <label wx:if="{{userItem.comments}}" class="_span data-v-127ba882">({{userItem.comments.length}})</label><label wx:elif="{{userItem.content.comments}}" class="_span data-v-127ba882">{{userItem.content.comments.length}}</label> )</view>
+            <view class="_div data-v-127ba882 comment-opera__wrapper">
+              <view class="_div data-v-127ba882 comment-opera__del">删除</view>
+              <view class="_div data-v-127ba882 comment-opera__time">{{userItem.updateTime}}</view>
+            </view>
+          </view>
+          <view wx:if="{{(userItem.comments && userItem.comments.length > 0) || (userItem.content.comments && userItem.content.comments.length > 0)}}" class="_div data-v-127ba882">
+            <view class="_div data-v-127ba882 comment-wrapper__other" wx:key="commIndex" key="{{commIndex}}" wx:for="{{userItem.content.comments}}" wx:for-index="commIndex" wx:for-item="commentItem">
+              <view class="_div data-v-127ba882 comment-other__user">
+                <view class="_div data-v-127ba882 other-user__item">
+                  <view wx:if="{{commentItem.critics && commentItem.critics.nickName}}" class="_div data-v-127ba882 comment-other__name">
+                    {{commentItem.critics.nickName}}
+                    <label class="_span data-v-127ba882 comment-other__reply" wx:if="{{commentItem.byCritics && commentItem.byCritics.nickName}}"> 回复 </label>
+                    {{commentItem.byCritics ? commentItem.byCritics.nickName : ''}}: </view>
+                  <view class="_div data-v-127ba882 comment-other__content">{{commentItem.content}}</view>
+                </view>
+              </view>
+              <view class="_div data-v-127ba882 comment-other__opera">回复</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

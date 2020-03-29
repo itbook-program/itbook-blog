@@ -1,0 +1,6 @@
+@import "./common/vendor.wxss";
+
+page {
+  min-height: 100vh;
+  width: 100%;
+}

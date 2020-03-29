@@ -1,0 +1,9 @@
+@import "../../common/vendor.wxss";
+
+.bankCard-container.data-v-a8a6b89a {
+  padding: 0 32rpx;
+  border-top: 1rpx solid #ebebeb;
+}
+.bankCard-container .bankCard-content__list.data-v-a8a6b89a {
+  margin-bottom: 68rpx;
+}

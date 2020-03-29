@@ -1,0 +1,41 @@
+@import "../../common/vendor.wxss";
+
+.bookmarks-container.data-v-b81fdbae {
+  padding: 32rpx;
+}
+.user-card.data-v-b81fdbae {
+  background-color: #C7C7C7;
+  width: 100%;
+  padding: 18rpx;
+  box-sizing: border-box;
+  border-radius: 16rpx;
+  min-height: 386rpx;
+  text-align: center;
+  color: #1EA473;
+  margin-bottom: 20rpx;
+}
+.user-card .user-card__title.data-v-b81fdbae {
+  text-align: center;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+}
+.user-card .user-card__balance.data-v-b81fdbae {
+  font-size: 160rpx;
+}
+.user-card .user-card__balance .card-balance__text.data-v-b81fdbae {
+  font-size: 36rpx;
+}
+.user-card .user-card__btn.data-v-b81fdbae {
+  width: 161rpx;
+  height: 60rpx;
+  border-radius: 60rpx;
+  margin: 0 auto;
+  background-color: #1EA473;
+  color: #fff;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  margin-top: -10rpx;
+}
+.user-card .user-card__btn.data-v-b81fdbae:active {
+  opacity: .8;
+}

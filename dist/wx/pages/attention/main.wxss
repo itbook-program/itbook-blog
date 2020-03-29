@@ -1,0 +1,36 @@
+@import "../../common/vendor.wxss";
+
+.attention-container.data-v-2feb07ec {
+  padding: 32rpx;
+}
+.attention-container .attention-container__item.data-v-2feb07ec {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 23rpx 0;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ebebeb;
+}
+.attention-container .attention-container__item .attention-wrapper__user.data-v-2feb07ec {
+  display: flex;
+}
+.attention-container .attention-container__item .attention-wrapper__user .attiontion-user__avatar.data-v-2feb07ec {
+  flex-shrink: 0;
+  margin-right: 20rpx;
+}
+.attention-container .attention-container__item .attention-wrapper__user .attiontion-user__avatar > ._img.data-v-2feb07ec {
+  width: 42rpx;
+  height: 42rpx;
+  overflow: hidden;
+  border-radius: 180rpx;
+}
+.attention-container .attention-container__item .attention-wrapper__user .attention-user__info.data-v-2feb07ec {
+  flex: 1;
+  font-size: 20rpx;
+}
+.attention-container .attention-container__item .attention-wrapper__user .attention-user__info .user-info__date.data-v-2feb07ec {
+  color: #999;
+}
+.attention-container .attention-container__item .attention-wrapper__operation.data-v-2feb07ec {
+  flex-shrink: 0;
+}

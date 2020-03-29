@@ -1,0 +1,48 @@
+@import "../../common/vendor.wxss";
+
+.cart-container.data-v-734935dc {
+  width: 100%;
+}
+.cart-container .cart-container__header.data-v-734935dc {
+  background: #fefefe;
+}
+.cart-container .cart-container__header.data-v-734935dc .pt-tabs__container {
+  border-top: 1rpx solid #e9e9e9;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.cart-container .cart-container__content.data-v-734935dc {
+  padding: 32rpx;
+}
+.cart-container .cart-more__tips.data-v-734935dc {
+  color: #666666;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 17rpx 0;
+}
+.title-container .title-wrap.data-v-577ad18f {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+  line-height: 60rpx;
+}
+.title-container .title-subhead.data-v-577ad18f {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #666666;
+}
+.chart-container.data-v-70e90f01 {
+  width: 100%;
+  height: 400rpx;
+}
+.ec-canvas.data-v-5d2912dc {
+  width: 100%;
+  height: 100%;
+}
+.chart-container.data-v-abf1936a {
+  width: 100%;
+  height: 400rpx;
+}
+.chart-container.data-v-023558b8 {
+  width: 100%;
+  height: 400rpx;
+}

@@ -1,0 +1,24 @@
+<template name="73edbac8">
+  <view class="_div data-v-4af0aebd chat-container">
+    <scroll-view scroll-y scroll-with-animation scroll-into-view="{{lastId}}" class="_scroll-view data-v-4af0aebd chat-content__list">
+      <view class="_div data-v-4af0aebd chat-content__wrapper">
+        <view wx:key="index" key="{{index}}" class="_div data-v-4af0aebd chat-list__item" wx:for="{{messages}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-4af0aebd chat-user__template {{item.messageType === 1 ? 'chat-user__myself' : ''}}">
+            <view class="_div data-v-4af0aebd chat-user__content">
+              <view class="_div data-v-4af0aebd chat-user__avatar">
+                <open-data class="_open-data data-v-4af0aebd user-avatar" wx:if="{{item.messageType === 1}}" type="userAvatarUrl"></open-data>
+                <image class="_image data-v-4af0aebd user-avatar" wx:else src="{{headerIcon}}"></image>
+              </view>
+              <open-data class="_open-data data-v-4af0aebd chat-user__name" wx:if="{{item.messageType === 1}}" type="userNickName"></open-data>
+              <view wx:else class="_div data-v-4af0aebd chat-user__name">{{item.name}}</view>
+            </view>
+            <view id="{{item.id}}" class="_div data-v-4af0aebd chat-user__msg">{{item.message}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="_div data-v-4af0aebd chat-footer__wrapper"><input value="{{speakText}}" bindinput="handleProxy" cursor-spacing="{{15}}" class="_input data-v-4af0aebd chat-footer__input" placeholder-class="chat-footer__text" placeholder="我来说两句" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+      <view class="_div data-v-4af0aebd chat-footer__send" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">发送</view>
+    </view>
+  </view>
+</template>

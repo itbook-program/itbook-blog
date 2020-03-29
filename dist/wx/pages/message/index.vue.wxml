@@ -1,0 +1,45 @@
+<import src="/pages/message/components/silder.vue.wxml" /><template name="d4b51af0">
+  <view class="_div data-v-21aca81a msg-container">
+    <view class="_div data-v-21aca81a msg-container__header">通知</view>
+    <view class="_div data-v-21aca81a msg-container__content">
+      <view class="_div data-v-21aca81a msg-content__item" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-21aca81a msg-item__list">
+          <view class="_div data-v-21aca81a msg-item__icon">
+            <image src="{{bell}}" class="_img data-v-21aca81a"></image>
+          </view>
+          <view class="_div data-v-21aca81a msg-item__attent">关注</view>
+        </view>
+        <view class="_div data-v-21aca81a msg-item__num" wx:if="{{countData.focus}}">{{countData.focus}}</view>
+      </view>
+      <view class="_div data-v-21aca81a msg-content__item" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-21aca81a msg-item__list">
+          <view class="_div data-v-21aca81a msg-item__icon">
+            <image src="{{heart}}" class="_img data-v-21aca81a"></image>
+          </view>
+          <view class="_div data-v-21aca81a msg-item__attent">喜欢</view>
+        </view>
+        <view class="_div data-v-21aca81a msg-item__num" wx:if="{{countData.likes}}">{{countData.likes}}</view>
+      </view>
+      <view class="_div data-v-21aca81a msg-content__item" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-21aca81a msg-item__list">
+          <view class="_div data-v-21aca81a msg-item__icon">
+            <image src="{{message}}" class="_img data-v-21aca81a"></image>
+          </view>
+          <view class="_div data-v-21aca81a msg-item__attent">评论</view>
+        </view>
+        <view class="_div data-v-21aca81a msg-item__num" wx:if="{{countData.comments}}">{{countData.comments}}</view>
+      </view>
+      <view class="_div data-v-21aca81a msg-content__item" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-21aca81a msg-item__list">
+          <view class="_div data-v-21aca81a msg-item__icon">
+            <image src="{{sound}}" class="_img data-v-21aca81a"></image>
+          </view>
+          <view class="_div data-v-21aca81a msg-item__attent">通知</view>
+        </view>
+        <view class="_div data-v-21aca81a msg-item__num" wx:if="{{countData.system}}">{{countData.system}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-21aca81a msg-container__header">私信</view>
+    <view class="_div data-v-21aca81a"><template data="{{...$root[$kk+'0'], $root}}" is="ee08776c"></template></view>
+  </view>
+</template>

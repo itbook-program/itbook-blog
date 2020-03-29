@@ -1,0 +1,102 @@
+@import "../../common/vendor.wxss";
+
+.user-container.data-v-25ac58fa {
+  padding: 32rpx;
+}
+.user-container .user-card.data-v-25ac58fa {
+  background-color: #C7C7C7;
+  width: 100%;
+  padding: 18rpx;
+  box-sizing: border-box;
+  border-radius: 16rpx;
+}
+.user-container .user-card .user-card__avatar.data-v-25ac58fa {
+  text-align: center;
+}
+.user-container .user-card .user-card__avatar > ._img.data-v-25ac58fa {
+  width: 160rpx;
+  height: 160rpx;
+}
+.user-container .user-card .user-card__title.data-v-25ac58fa {
+  text-align: center;
+  font-size: 48rpx;
+  color: #333;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+.user-container .user-card .user-card__content.data-v-25ac58fa {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #1EA473;
+  font-size: 32rpx;
+}
+.user-container .usr-nav.data-v-25ac58fa {
+  color: #1EA473;
+  font-size: 32rpx;
+  margin: 40rpx 0;
+}
+.ptf-list__container .ptf-list__wrapper.data-v-25ac58fa {
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.ptf-list__container .ptf-list__wrapper.data-v-25ac58fa:last-child {
+  border-bottom: none;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__title.data-v-25ac58fa {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__content.data-v-25ac58fa {
+  display: flex;
+  align-items: center;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__content .item-content__text.data-v-25ac58fa {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  width: 100%;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__content .item-content__cover.data-v-25ac58fa {
+  width: 160rpx;
+  height: 120rpx;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 10rpx;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__content .item-content__cover > ._img.data-v-25ac58fa {
+  width: 160rpx;
+  height: 120rpx;
+  border-radius: 10rpx;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__opera.data-v-25ac58fa {
+  display: flex;
+  align-items: center;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__opera .item-opera__wrapper.data-v-25ac58fa {
+  display: flex;
+  align-items: center;
+  margin-right: 8%;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__opera .item-opera__wrapper .opera-opera__icon > ._img.data-v-25ac58fa {
+  width: 32rpx;
+  height: 32rpx;
+}
+.ptf-list__container .ptf-list__wrapper .list-item__opera .item-opera__wrapper .opera-item__num.data-v-25ac58fa {
+  flex-shrink: 0;
+  line-height: 32rpx;
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #666;
+  margin-left: 8rpx;
+  margin-top: -6rpx;
+}

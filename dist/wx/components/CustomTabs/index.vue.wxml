@@ -1,0 +1,10 @@
+<template name="a05445d8">
+  <view class="_div data-v-7aab7b7f">
+    <view class="_div data-v-7aab7b7f pt-tabs__container {{[isFixed ? 'pt-tabs__position' : '']}}" style=" {{['height:' + height + ';']}}">
+      <view wx:key="index" key="{{index}}" bindtap="handleProxy" class="_div data-v-7aab7b7f pt-tabs__items {{[item.key === indexed && activeLine ? 'tabs-isActive' : '']}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="item" style=" {{[item.key === indexed ? 'color:' + activedColor + ';' : 'color:' + color + ';']}}">
+        <view class="_div data-v-7aab7b7f">{{item.value}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-7aab7b7f" style=" {{[isFixed ? 'height:' + height + ';' : '']}}"></view>
+  </view>
+</template>

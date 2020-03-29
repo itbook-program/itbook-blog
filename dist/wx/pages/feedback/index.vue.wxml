@@ -1,0 +1,5 @@
+<import src="/components/CustomButtons/index.vue.wxml" /><template name="74ab660c">
+  <view class="_div data-v-c6a57e22 feedback-container">
+    <view class="_div data-v-c6a57e22 feedback-content__container">
+      <view class="_div data-v-c6a57e22 feedback-content__title"><input class="_input data-v-c6a57e22 feedback-title__concat" value="{{title}}" bindinput="handleProxy" placeholder="联系方式" data-eventid="{{'0'}}" data-comkey="{{$k}}" /></view>
+      <view class="_div data-v-c6a57e22 feedback-content__text"><textarea type="textarea" value="{{signText}}" bindinput="handleProxy" maxlength="{{100}}" placeholder="请简单的描述遇到的问题" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_textarea data-v-c6a57e22" /></view> <view class="_div data-v-c6a57e22 feedback-content__button"><template text="提 交" data="{{...$root[$kk+'0'], $root}}" is="8ca5a8fe"></template></view></view></view></template>

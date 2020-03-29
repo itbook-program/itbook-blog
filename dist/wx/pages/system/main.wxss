@@ -1,0 +1,38 @@
+@import "../../common/vendor.wxss";
+
+.system-container .system-content__wrap.data-v-3c8bd2d9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1rpx solid #ebebeb;
+}
+.system-container .system-content__wrap.data-v-3c8bd2d9:active {
+  opacity: .8;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.system-container .system-content__wrap.data-v-3c8bd2d9:first-child {
+  border-top: 1rpx solid #ebebeb;
+}
+.system-container .system-content__wrap .system-wrap__item.data-v-3c8bd2d9 {
+  flex: 1;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  padding: 35rpx 30rpx;
+}
+.system-container .system-content__wrap .system-wrap__item .item-normal.data-v-3c8bd2d9 {
+  color: #999999;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.system-container .system-content__wrap .system-wrap__item .item-telNumber.data-v-3c8bd2d9 {
+  border-radius: 24rpx;
+  padding: 10rpx 20rpx;
+  background-color: #1EA473;
+  color: #fff;
+  font-size: 20rpx;
+}
+.system-container .system-content__wrap .item-value.data-v-3c8bd2d9 {
+  text-align: right;
+}

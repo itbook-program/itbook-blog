@@ -1,0 +1,3 @@
+<import src="/modules/mpvue-echarts/src/echarts.vue.wxml" /><template name="6d9aa50c">
+  <view class="_div data-v-70e90f01 chart-container"><template lazyLoad data="{{...$root[$kk+'0'], $root}}" is="a662a0b2"></template></view>
+</template>

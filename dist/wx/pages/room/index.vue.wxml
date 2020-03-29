@@ -1,0 +1,6 @@
+<template name="06f20bd0">
+  <view class="_div data-v-350f4245 chat-container">
+    <view class="_div data-v-350f4245 chat-title">聊天室</view>
+    <view class="_div data-v-350f4245 chat-content"><input class="_input data-v-350f4245 chat-input" type="number" placeholder="请输入房间号" value="{{roomId}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" /> <button class="_button data-v-350f4245 chat-button" type="button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">进入</button></view>
+  </view>
+</template>

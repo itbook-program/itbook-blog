@@ -1,0 +1,42 @@
+<template name="222a8b0d">
+  <view class="_div data-v-3dd3f842 comment-container">
+    <view class="_div data-v-3dd3f842 comment-container__item">
+      <view class="_div data-v-3dd3f842 comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-3dd3f842"></image>
+      </view>
+      <view class="_div data-v-3dd3f842 comment-wrapper__content">
+        <view class="_div data-v-3dd3f842 comment-wrapper__user">
+          <view class="_div data-v-3dd3f842 comment-user__username">版本更新</view>
+          <view class="_div data-v-3dd3f842 comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-3dd3f842 comment-wrapper__info"> 本次更新要点： 1、本次版本更新修复了已知的缺陷； 2、新增了官方活动； 3、重新设计了推荐算法。 下个版本计划： 1、举行打榜活动; 2、优化部分逻辑。 </view>
+      </view>
+    </view>
+    <view class="_div data-v-3dd3f842 comment-container__item">
+      <view class="_div data-v-3dd3f842 comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-3dd3f842"></image>
+      </view>
+      <view class="_div data-v-3dd3f842 comment-wrapper__content">
+        <view class="_div data-v-3dd3f842 comment-wrapper__user">
+          <view class="_div data-v-3dd3f842 comment-user__username">活动通知</view>
+          <view class="_div data-v-3dd3f842 comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-3dd3f842 comment-wrapper__info"> 全新的插书签活动开始了，阅读文章，打赏任 意书签，就可参与官方周边纪念物抽奖活动，快 快来参与吧。 <view class="_div data-v-3dd3f842 active-link">活动详情点击本消息查看>></view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-3dd3f842 comment-container__item">
+      <view class="_div data-v-3dd3f842 comment-wrapper__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-3dd3f842"></image>
+      </view>
+      <view class="_div data-v-3dd3f842 comment-wrapper__content">
+        <view class="_div data-v-3dd3f842 comment-wrapper__user">
+          <view class="_div data-v-3dd3f842 comment-user__username">文章审核通知</view>
+          <view class="_div data-v-3dd3f842 comment-user__time">19.04.30 16:45</view>
+        </view>
+        <view class="_div data-v-3dd3f842 comment-wrapper__text"> 恭喜你的文章通过了审核。 </view>
+        <view class="_div data-v-3dd3f842 comment-wrapper__info"> 博客系统设计--小程序设计 </view>
+      </view>
+    </view>
+  </view>
+</template>

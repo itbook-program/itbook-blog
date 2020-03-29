@@ -1,0 +1,18 @@
+$side-padding: 32rpx;
+
+@mixin line1rpx {
+  position: relative;
+  &:after {
+    content: '';
+    bottom: 0;
+    border-bottom: 1rpx solid #ebebeb;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@mixin linemore1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

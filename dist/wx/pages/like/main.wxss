@@ -1,0 +1,29 @@
+@import "../../common/vendor.wxss";
+
+.ptf-history__container.data-v-e64393fe {
+  padding: 32rpx;
+}
+.ptf-history__container .ptf-history__item.data-v-e64393fe {
+  border-bottom: 1rpx solid #ebebeb;
+}
+.ptf-history__container .ptf-history__item .ptf-history__title.data-v-e64393fe {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  margin-top: 24rpx;
+}
+.ptf-history__container .ptf-history__item .ptf-history__title.data-v-e64393fe:first-child {
+  padding-top: 0;
+}
+.ptf-history__container .ptf-history__item .ptf-history__user.data-v-e64393fe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20rpx;
+  color: #000;
+  font-weight: 500;
+  padding: 24rpx 0;
+}
+.ptf-history__container .ptf-history__item .ptf-history__user .history-user__date.data-v-e64393fe {
+  color: #999;
+}

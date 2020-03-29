@@ -1,0 +1,11 @@
+<template name="5ec0ff8c">
+  <view class="_div data-v-e64393fe ptf-history__container">
+    <view wx:key="index" key="{{index}}" class="_div data-v-e64393fe ptf-history__item" wx:for="{{likesData}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-e64393fe ptf-history__title"><label wx:if="{{item.article}}" class="_span data-v-e64393fe">{{item.article.title}}</label><label wx:elif="{{item.content && item.content.article}}" class="_span data-v-e64393fe">{{item.content.article.title}}</label></view>
+      <view class="_div data-v-e64393fe ptf-history__user">
+        <view class="_div data-v-e64393fe history-user__name"><label wx:if="{{item.user}}" class="_span data-v-e64393fe">{{item.user.nickName}}</label><label wx:elif="{{item.receiver}}" class="_span data-v-e64393fe">{{item.receiver.nickName}}</label></view>
+        <view class="_div data-v-e64393fe history-user__date">{{item.updateAt}}</view>
+      </view>
+    </view>
+  </view>
+</template>

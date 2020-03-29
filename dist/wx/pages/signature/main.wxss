@@ -1,0 +1,21 @@
+@import "../../common/vendor.wxss";
+
+.signature-container .signature-content__container.data-v-3a4bbb24 {
+  border-top: 1rpx solid #EBEBEB;
+  padding: 0 32rpx;
+}
+.signature-container .signature-content__container .signature-content__title.data-v-3a4bbb24 {
+  font-size: 20rpx;
+  padding: 25rpx 0;
+}
+.signature-container .signature-content__container .signature-content__text.data-v-3a4bbb24 {
+  border-top: 1rpx solid #EBEBEB;
+  border-bottom: 1rpx solid #EBEBEB;
+  padding: 32rpx 0;
+}
+.signature-container .signature-content__container .signature-content__text > ._textarea.data-v-3a4bbb24 {
+  width: 100%;
+}
+.signature-container .signature-content__container .signature-content__button.data-v-3a4bbb24 {
+  margin: 70rpx 0;
+}

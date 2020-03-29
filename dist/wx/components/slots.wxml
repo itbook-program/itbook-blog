@@ -1,0 +1,52 @@
+<import src="/components/CustomTags/index.vue.wxml" />
+<import src="/components/CustomButtons/index.vue.wxml" />
+<import src="/components/CustomCells/index.vue.wxml" />
+<import src="/components/CustomButtons/index.vue.wxml" />
+<import src="/pages/message/components/silder.vue.wxml" />
+<import src="/components/CustomHeader/index.vue.wxml" />
+<import src="/pages/home/components/noLogin.vue.wxml" />
+<import src="/components/CustomMask/index.vue.wxml" />
+<import src="/components/CustomBookMarks/index.vue.wxml" />
+<import src="/components/CustomTabs/index.vue.wxml" />
+<import src="/components/CustomBookMarks/index.vue.wxml" />
+<import src="/components/CustomReachBottom/index.vue.wxml" />
+<import src="/components/CustomTabs/index.vue.wxml" />
+<import src="/pages/myArticle/components/public.vue.wxml" />
+<import src="/pages/myArticle/components/private.vue.wxml" />
+<import src="/pages/myArticle/components/audit.vue.wxml" />
+<import src="/components/CustomWaveform/index.vue.wxml" />
+<import src="/components/CustomTabs/index.vue.wxml" />
+<import src="/pages/cartogram/components/title.vue.wxml" />
+<import src="/pages/cartogram/components/pieChart.vue.wxml" />
+<import src="/pages/cartogram/components/barChart.vue.wxml" />
+<import src="/pages/cartogram/components/lineChart.vue.wxml" />
+<import src="/modules/mpvue-echarts/src/echarts.vue.wxml" /><template name="data-v-a846fd6e-default-0">
+  <view class="_div data-v-a846fd6e header-search__container">
+    <view class="_div data-v-a846fd6e header-search__wrapper" style=" {{'height:' + navHeight + 'px'}}">
+      <image src="{{searchIcon}}" class="_img data-v-a846fd6e header-container__search"></image> <input placeholder="输入感兴趣的关键词" class="_input data-v-a846fd6e header-container__input" />
+    </view>
+  </view>
+</template>
+<template name="data-v-dc37d454-default-2">
+  <view class="_div data-v-dc37d454 mask-content__wrapper">
+    <view class="_div data-v-dc37d454 mask-content__header">
+      <image src="{{headerIcon}}" class="_img data-v-dc37d454"></image>
+    </view>
+    <view class="_div data-v-dc37d454 mask-content__title">一杯咖啡，一篇好文章</view>
+    <view class="_div data-v-dc37d454 mask-content__tags">
+      <view bindtap="handleProxy" wx:key="index" key="{{index}}" class="_div data-v-dc37d454 mask-tag__item {{maskActive === exceptItem.key ? 'mask-tag__active' : ''}}" data-eventid="{{'9_'+index}}" data-comkey="{{$k}}" wx:for="{{defaultExcept}}" wx:for-index="index" wx:for-item="exceptItem">
+        {{exceptItem.value}}书签 </view>
+      <view class="_div data-v-dc37d454 mask-tag__item"><input wx:if="{{isCustom}}" value="{{exceptMoney}}" bindinput="handleProxy" type="digit" data-eventid="{{'11'}}" data-comkey="{{$k}}" class="_input data-v-dc37d454" /><label wx:else bindtap="handleProxy" data-eventid="{{'10'}}" data-comkey="{{$k}}" class="_span data-v-dc37d454">自定义打赏</label></view>
+    </view>
+    <view class="_div data-v-dc37d454 mask-content__btns" bindtap="handleProxy" data-eventid="{{'12'}}" data-comkey="{{$k}}"> 好文章，插个书签 </view>
+  </view>
+</template>
+<template name="data-v-dc37d454-default-3">
+  <view class="_div data-v-dc37d454 mask-comment__wrapper">
+    <form bindsubmit="handleProxy" data-eventid="{{'15'}}" data-comkey="{{$k}}" class="_form data-v-dc37d454">
+      <view class="_div data-v-dc37d454 mask-comment__header">
+        <view class="_div data-v-dc37d454 mask-header__cancel" bindtap="handleProxy" data-eventid="{{'14'}}" data-comkey="{{$k}}">取消</view>
+        <view class="_div data-v-dc37d454"><button class="_button data-v-dc37d454 mask-header__public" form-type="submit"> 发布 </button></view>
+      </view>
+      <view class="_div data-v-dc37d454 mask-comment__text"><textarea name="commText" auto-focus maxlength="{{500}}" class="_textarea data-v-dc37d454" /></view></form></view></template>
+<template name="data-v-1817b2c8-default-0"><view class="_div data-v-1817b2c8 login-wrapper"><view class="_div data-v-1817b2c8 login-contaner__content"><view class="_div data-v-1817b2c8 content-title">授权提醒</view> <view class="_div data-v-1817b2c8 content-info">请授权登陆，去发现优秀的文章</view></view> <view class="_div data-v-1817b2c8 login-contaner__button"><view class="_div data-v-1817b2c8 button-item">取消</view> <button class="_button data-v-1817b2c8 button-item content-confrim" open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">立即授权</button></view></view></template>

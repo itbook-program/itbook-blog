@@ -1,0 +1,8 @@
+<import src="/components/slots" /><template name="df2b9aba">
+  <view class="_div data-v-075c3b64 header-container" style=" {{'padding-top:' + navSignalTop + 'px'}}"><template name="default">
+      <view class="_div data-v-075c3b64 header-wrapper" style=" {{'height:' + navHeight + 'px'}}">
+        <view class="_div data-v-075c3b64 height-wrapper__back" wx:if="{{isBack}}">{{backTitle}}</view>
+        <view class="_div data-v-075c3b64 height-wrapper__title">{{title}}</view>
+      </view>
+    </template><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view>
+</template>

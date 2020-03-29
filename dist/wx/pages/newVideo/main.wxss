@@ -1,0 +1,43 @@
+@import "../../common/vendor.wxss";
+
+.video-container .video-wrap.data-v-0f0dc8a5 {
+  padding: 0 32rpx;
+}
+.video-container .video-wrap .video-wrap__controls.data-v-0f0dc8a5 {
+  width: 100%;
+  border-radius: 16rpx;
+}
+.video-container .video-wrap .video-noConent.data-v-0f0dc8a5 {
+  background: whitesmoke;
+  border-radius: 32rpx;
+  height: 386rpx;
+  width: 100%;
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-container .video-footer.data-v-0f0dc8a5 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  left: 0;
+}
+.video-container .video-footer .video-opera.data-v-0f0dc8a5 {
+  display: flex;
+  height: 97rpx;
+  line-height: 97rpx;
+}
+.video-container .video-footer .video-opera .video-opera__submit.data-v-0f0dc8a5 {
+  flex: 1.5;
+  background-color: #00A65D;
+  font-size: 30rpx;
+  color: #fff;
+}
+.video-container .video-footer .video-opera .video-opera__submit.data-v-0f0dc8a5:active {
+  opacity: .8;
+}

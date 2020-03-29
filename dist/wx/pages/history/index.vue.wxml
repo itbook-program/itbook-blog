@@ -1,0 +1,11 @@
+<import src="/components/CustomReachBottom/index.vue.wxml" /><template name="6c23cad5">
+  <view class="_div data-v-74aff780 ptf-history__container">
+    <view wx:key="index" key="{{index}}" class="_div data-v-74aff780 ptf-history__item" wx:for="{{looksData}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-74aff780 ptf-history__title">{{item.article.title}}</view>
+      <view class="_div data-v-74aff780 ptf-history__user">
+        <view class="_div data-v-74aff780 history-user__name">{{item.user.nickName}}</view>
+        <view class="_div data-v-74aff780 history-user__date">{{item.updateAt}}</view>
+      </view>
+    </view> <template data="{{...$root[$kk+'0'], $root}}" is="6fc576be"></template>
+  </view>
+</template>

@@ -1,0 +1,53 @@
+<template name="1626df8e">
+  <view class="_div data-v-25ac58fa user-container">
+    <view class="_div data-v-25ac58fa user-card">
+      <view class="_div data-v-25ac58fa user-card__avatar">
+        <image src="{{headerIcon}}" class="_img data-v-25ac58fa"></image>
+      </view>
+      <view class="_div data-v-25ac58fa user-card__title">小呆呆</view>
+      <view class="_div data-v-25ac58fa user-card__content">
+        <view class="_div data-v-25ac58fa card-content__item">
+          <view class="_div data-v-25ac58fa">文章</view>
+          <view class="_div data-v-25ac58fa">99</view>
+        </view>
+        <view class="_div data-v-25ac58fa card-content__item">
+          <view class="_div data-v-25ac58fa">喜欢</view>
+          <view class="_div data-v-25ac58fa">99</view>
+        </view>
+        <view class="_div data-v-25ac58fa card-content__item">
+          <view class="_div data-v-25ac58fa">关注</view>
+          <view class="_div data-v-25ac58fa">99</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-25ac58fa usr-nav"> 公开文章 </view>
+    <view class="_div data-v-25ac58fa ptf-list__container">
+      <view class="_div data-v-25ac58fa ptf-list__wrapper">
+        <view class="_div data-v-25ac58fa list-item__title">博客系统设计--小程序设计</view>
+        <view class="_div data-v-25ac58fa list-item__content">
+          <view class="_div data-v-25ac58fa item-content__text">博客系统是大家常用的系统之一，小编今天带大家从头搭建微信小程序之博客系统。首先我们下载微信开发者工具，并注册小程序账号.博客系统是大家常用的系统之一，小编今天带大家从头搭建微信小程序之博客系统。首先我们下载微信开发者工具，并注册小程序账号</view>
+          <view class="_div data-v-25ac58fa item-content__cover">
+            <image src="{{swiperCover}}" class="_img data-v-25ac58fa"></image>
+          </view>
+        </view>
+        <view class="_div data-v-25ac58fa list-item__opera">
+          <view class="_div data-v-25ac58fa item-opera__wrapper">
+            <view class="_div data-v-25ac58fa opera-opera__icon">
+              <image src="{{viewIcon}}" class="_img data-v-25ac58fa"></image>
+            </view>
+            <view class="_div data-v-25ac58fa opera-item__num">199</view>
+          </view>
+          <view class="_div data-v-25ac58fa item-opera__wrapper">
+            <view class="_div data-v-25ac58fa opera-opera__icon">
+              <image src="{{likeIcon}}" class="_img data-v-25ac58fa"></image>
+            </view>
+            <view class="_div data-v-25ac58fa opera-item__num">199</view>
+          </view>
+          <view class="_div data-v-25ac58fa item-opera__wrapper">
+            <view class="_div data-v-25ac58fa opera-item__num">2019.04.13 16:44</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

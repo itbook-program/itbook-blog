@@ -1,0 +1,49 @@
+@import "../../common/vendor.wxss";
+
+.comment-container.data-v-3dd3f842 {
+  padding: 32rpx;
+}
+.comment-container .comment-container__item.data-v-3dd3f842 {
+  width: 100%;
+  display: flex;
+  border-bottom: 1rpx solid #EBEBEB;
+  padding-top: 25rpx;
+}
+.comment-container .comment-container__item .comment-wrapper__info .active-link.data-v-3dd3f842 {
+  color: #1EA473;
+}
+.comment-container .comment-container__item .comment-wrapper__info .active-link > ._a.data-v-3dd3f842 {
+  padding: 10rpx 0;
+}
+.comment-container .comment-wrapper__avatar.data-v-3dd3f842 {
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}
+.comment-container .comment-wrapper__avatar > ._img.data-v-3dd3f842 {
+  width: 42rpx;
+  height: 42rpx;
+}
+.comment-container .comment-wrapper__content.data-v-3dd3f842 {
+  flex: 1;
+  padding-bottom: 25rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user.data-v-3dd3f842 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user .comment-user__username.data-v-3dd3f842 {
+  font-size: 20rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user .comment-user__time.data-v-3dd3f842 {
+  font-size: 20rpx;
+  color: #999;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__info.data-v-3dd3f842 {
+  margin-top: 25rpx;
+  background: whitesmoke;
+  border-radius: 16rpx;
+  padding: 17rpx;
+  font-size: 28rpx;
+  color: #333;
+}

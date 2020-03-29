@@ -1,0 +1,19 @@
+<import src="/components/CustomTabs/index.vue.wxml" />
+<import src="/pages/cartogram/components/title.vue.wxml" />
+<import src="/pages/cartogram/components/pieChart.vue.wxml" />
+<import src="/pages/cartogram/components/barChart.vue.wxml" />
+<import src="/pages/cartogram/components/lineChart.vue.wxml" /><template name="86004b32">
+  <view class="_div data-v-734935dc cart-container">
+    <view class="_div data-v-734935dc cart-container__header"><template isFixed height="80rpx" bindcheckedItem="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="a05445d8"></template></view>
+    <view wx:if="{{type === 0}}" class="_div data-v-734935dc">
+      <view class="_div data-v-734935dc cart-container__content"><template title="文章类型" info="作家文章类型数据占比" data="{{...$root[$kk+'1'], $root}}" is="50e7251a"></template> <template chartId="type" data="{{...$root[$kk+'2'], $root}}" is="4f1532e0"></template></view>
+      <view class="_div data-v-734935dc cart-container__content"><template title="近6月公开文章发布" info="月度文章发布数据统计" data="{{...$root[$kk+'3'], $root}}" is="50e7251a"></template> <template chartId="num" data="{{...$root[$kk+'4'], $root}}" is="b8195f8e"></template></view>
+      <view class="_div data-v-734935dc cart-more__tips"> — 查看更多数据请登录官网 — </view>
+    </view>
+    <view wx:if="{{type === 1}}" class="_div data-v-734935dc">
+      <view class="_div data-v-734935dc cart-container__content"><template title="文章阅读近7日趋势" info="全部公开文章阅读" data="{{...$root[$kk+'5'], $root}}" is="50e7251a"></template> <template chartId="read" data="{{...$root[$kk+'6'], $root}}" is="6d9aa50c"></template></view>
+      <view class="_div data-v-734935dc cart-container__content"><template title="书签近7日趋势" info="读者书签打赏记录" data="{{...$root[$kk+'7'], $root}}" is="50e7251a"></template> <template chartId="mark" data="{{...$root[$kk+'8'], $root}}" is="6d9aa50c"></template></view>
+      <view class="_div data-v-734935dc cart-more__tips"> — 查看更多数据请登录官网 — </view>
+    </view>
+  </view>
+</template>

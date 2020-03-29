@@ -1,0 +1,5 @@
+<import src="/components/CustomMask/index.vue.wxml" /><template name="a79ff9c6">
+  <view class="_div data-v-1817b2c8 login-container" style=" {{'padding-top:' + (navTop + 4) + 'px'}}">
+    <image src="{{loadingBg}}" class="_img data-v-1817b2c8"></image> <template data="{{...$root[$kk+'0'], $root, $for:{default:'data-v-1817b2c8-default-0'},$slotdefault:'data-v-1817b2c8-default-0'}}" is="5e6bbf02"></template>
+  </view>
+</template>

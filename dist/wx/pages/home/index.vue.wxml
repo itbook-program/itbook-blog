@@ -1,0 +1,45 @@
+<import src="/components/CustomHeader/index.vue.wxml" />
+<import src="/pages/home/components/noLogin.vue.wxml" /><template name="7dbf4ad4">
+  <view class="_div data-v-a846fd6e">
+    <view wx:if="{{!noLogin}}" class="_div data-v-a846fd6e"><template data="{{...$root[$kk+'0'], $root, $for:{default:'data-v-a846fd6e-default-0'},$slotdefault:'data-v-a846fd6e-default-0'}}" is="df2b9aba"></template>
+      <view class="_div data-v-a846fd6e ptf-mall__wrapper" style=" {{'margin-top:' + (navHeight + 40) + 'px'}}">
+        <swiper autoplay="{{true}}" indicator-dots="{{false}}" circular="{{true}}" class="_swiper data-v-a846fd6e ptf-mall__swiper">
+          <swiper-item class="_swiper-item data-v-a846fd6e ptf-mall__swiperItem">
+            <image src="{{swiperCover}}" class="_image data-v-a846fd6e slide-image"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_div data-v-a846fd6e ptf-list__container">
+        <view wx:key="index" key="{{index}}" bindtap="handleProxy" class="_div data-v-a846fd6e ptf-list__wrapper" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="index" wx:for-item="artItem">
+          <view class="_div data-v-a846fd6e list-item__title">{{artItem.title}}</view>
+          <view class="_div data-v-a846fd6e list-item__content">
+            <view class="_div data-v-a846fd6e item-content__text">{{artItem.contentText}}</view>
+            <view class="_div data-v-a846fd6e item-content__cover"><video wx:if="{{artItem.resourceType === 1}}" play-btn-position="center" object-fit="fill" src="{{videoUrl + artItem.resource}}" class="_video data-v-a846fd6e"></video>
+              <image src="{{artItem.cover}}" class="_img data-v-a846fd6e"></image>
+            </view>
+          </view>
+          <view class="_div data-v-a846fd6e list-item__opera">
+            <view class="_div data-v-a846fd6e item-opera__wrapper opera-item__name">
+              <view class="_div data-v-a846fd6e opera-opera__icon">
+                <image src="{{artItem.user.avatarUrl}}" class="_img data-v-a846fd6e"></image>
+              </view>
+              <view class="_div data-v-a846fd6e opera-item__num opera-item__text">{{artItem.user.nickName}}</view>
+            </view>
+            <view class="_div data-v-a846fd6e item-opera__wrapper">
+              <view class="_div data-v-a846fd6e opera-opera__icon">
+                <image src="{{viewIcon}}" class="_img data-v-a846fd6e"></image>
+              </view>
+              <view class="_div data-v-a846fd6e opera-item__num">{{artItem.looks}}</view>
+            </view>
+            <view class="_div data-v-a846fd6e item-opera__wrapper">
+              <view class="_div data-v-a846fd6e opera-opera__icon">
+                <image src="{{likeIcon}}" class="_img data-v-a846fd6e"></image>
+              </view>
+              <view class="_div data-v-a846fd6e opera-item__num">{{artItem.likes}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view><template wx:else bindauthUserInfo="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'2'], $root}}" is="a79ff9c6"></template>
+  </view>
+</template>

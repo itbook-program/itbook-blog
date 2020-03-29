@@ -1,0 +1,17 @@
+<template name="fe7553ce">
+  <view class="_div data-v-f14dfae4 comment-container">
+    <view class="_div data-v-f14dfae4 comment-container__item" wx:key="index" key="{{index}}" wx:for="{{itemData}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-f14dfae4 comment-wrapper__avatar">
+        <image src="{{item.user.avatarUrl}}" class="_img data-v-f14dfae4"></image>
+      </view>
+      <view class="_div data-v-f14dfae4 comment-wrapper__content">
+        <view class="_div data-v-f14dfae4 comment-wrapper__user">
+          <view class="_div data-v-f14dfae4 comment-user__username">{{item.updateAt}}</view>
+          <view class="_div data-v-f14dfae4 comment-user__time audit-btn" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}">撤销审核</view>
+        </view>
+        <view class="_div data-v-f14dfae4 comment-wrapper__text">平台将会在48小时内审核，请稍后查看。</view>
+        <view class="_div data-v-f14dfae4 comment-wrapper__info">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</template>

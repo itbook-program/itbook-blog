@@ -1,0 +1,41 @@
+<template name="4255de48">
+  <view class="_div data-v-646ba8fd article-container">
+    <view class="_div data-v-646ba8fd article-content__container">
+      <view class="_div data-v-646ba8fd article-content__wrapper">
+        <view class="_div data-v-646ba8fd article-container__title">{{article.title}}</view>
+        <view class="_div data-v-646ba8fd video-wrap"><video wx:if="{{article.videoPath}}" src="{{videoUrl + article.videoPath}}" class="_video data-v-646ba8fd video-wrap__controls"></video></view>
+        <ql-container class="_ql-container data-v-646ba8fd">
+          <ql-editor class="_ql-editor data-v-646ba8fd">
+            <rich-text class="_div data-v-646ba8fd article-content" nodes="{{article.detail.html}}"></rich-text>
+          </ql-editor>
+        </ql-container>
+      </view>
+      <view class="_div data-v-646ba8fd article-attachment">
+        <view class="_div data-v-646ba8fd attach-item" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-646ba8fd attach-item__header">
+            <view class="_div data-v-646ba8fd attach-item__image">
+              <image src="{{locationIcon}}" class="_image data-v-646ba8fd"></image>
+            </view>
+            <view class="_div data-v-646ba8fd attach-item__text">地点</view>
+          </view>
+          <view wx:if="{{locationInfo.title}}" class="_div data-v-646ba8fd attach-item__text item-info">{{locationInfo.title}}</view>
+        </view>
+        <view class="_div data-v-646ba8fd attach-item" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-646ba8fd attach-item__header">
+            <view class="_div data-v-646ba8fd attach-item__image">
+              <image src="{{attachmentIcon}}" class="_image data-v-646ba8fd"></image>
+            </view>
+            <view class="_div data-v-646ba8fd attach-item__text">附件</view>
+          </view>
+          <view wx:if="{{attachInfo.length > 0}}" class="_div data-v-646ba8fd attach-item__text item-info">共 {{attachInfo.length}} 件</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-646ba8fd ptf-release__footer">
+      <view class="_div data-v-646ba8fd ptf-release__opera">
+        <view class="_div data-v-646ba8fd release-opera__save" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">编辑</view>
+        <view class="_div data-v-646ba8fd release-opera__submit" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">提交审核</view>
+      </view>
+    </view>
+  </view>
+</template>

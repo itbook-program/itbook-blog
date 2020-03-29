@@ -1,0 +1,13 @@
+<import src="/components/CustomTags/index.vue.wxml" /><template name="4e3b74c6">
+  <view class="_div data-v-41141bdc bookmarks-items__container">
+    <view wx:key="index" key="{{index}}" class="_div data-v-41141bdc bookmarks-container__item" wx:for="{{marksData}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-41141bdc container-item__info">
+        <view class="_div data-v-41141bdc item-info__title">
+          <view class="_div data-v-41141bdc item-title__text">{{item.article.title}}</view> <template wx:if="{{isTag}}" data="{{...$root[$kk+'0_'+index], $root}}" is="5363d022"></template>
+        </view>
+        <view class="_div data-v-41141bdc item-info__date">{{item.updateAt}}</view>
+      </view>
+      <view class="_div data-v-41141bdc container-item__num">{{item.price}} 书签</view>
+    </view>
+  </view>
+</template>

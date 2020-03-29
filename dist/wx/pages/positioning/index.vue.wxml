@@ -1,0 +1,26 @@
+<template name="daf1f9cc">
+  <view class="_div data-v-99aae1f6 article-container">
+    <view class="_div data-v-99aae1f6 article-attachment">
+      <view class="_div data-v-99aae1f6 attach-search__wrap">
+        <image src="{{searchIcon}}" class="_img data-v-99aae1f6 header-container__search"></image> <input value="{{searchText}}" bindinput="handleProxy" bindconfirm="handleProxy" confirm-type="search" placeholder="搜索附近的地点" class="_input data-v-99aae1f6 header-container__input" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+      </view>
+      <view class="_div data-v-99aae1f6 attach-item" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+        <view class="_div data-v-99aae1f6 attach-item__header">
+          <view class="_div data-v-99aae1f6 attach-item__text">位置信息不展示</view>
+        </view>
+        <view wx:if="{{checkActive === 0}}" class="_div data-v-99aae1f6 attach-item__text item-info">
+          <image src="{{checkIcon}}" class="_image data-v-99aae1f6"></image>
+        </view>
+      </view>
+      <view wx:key="index" key="{{index}}" bindtap="handleProxy" class="_div data-v-99aae1f6 attach-item" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}" wx:for="{{location}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-99aae1f6 attach-item__header">
+          <view class="_div data-v-99aae1f6 attach-item__text">{{item.title}}</view>
+          <view class="_div data-v-99aae1f6 attach-item__text">{{item.address}}</view>
+        </view>
+        <view wx:if="{{checkActive === index+1}}" class="_div data-v-99aae1f6 attach-item__text item-info">
+          <image src="{{checkIcon}}" class="_image data-v-99aae1f6"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,108 @@
+@import "../../common/vendor.wxss";
+
+.comment-container.data-v-127ba882 {
+  padding: 32rpx;
+  padding-top: 0;
+  border-top: 1rpx solid #EBEBEB;
+}
+.comment-container .comment-container__item.data-v-127ba882 {
+  width: 100%;
+  display: flex;
+  border-bottom: 1rpx solid #EBEBEB;
+  padding-top: 25rpx;
+}
+.comment-container .comment-wrapper__avatar.data-v-127ba882 {
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}
+.comment-container .comment-wrapper__avatar > ._img.data-v-127ba882 {
+  border-radius: 180rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+.comment-container .comment-wrapper__content.data-v-127ba882 {
+  flex: 1;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user.data-v-127ba882 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user .comment-user__username.data-v-127ba882 {
+  font-size: 20rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__user .comment-user__time.data-v-127ba882 {
+  font-size: 20rpx;
+  color: #999;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__text.data-v-127ba882 {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__info.data-v-127ba882 {
+  background: whitesmoke;
+  border-radius: 16rpx;
+  padding: 17rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__info .comment-wrapper__title.data-v-127ba882 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__info .comment-wrapper__name.data-v-127ba882 {
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #000;
+  padding: 20rpx 0;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__opera.data-v-127ba882 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 0;
+  font-size: 20rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__opera .comment-opera__wrapper.data-v-127ba882 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__opera .comment-opera__wrapper .comment-opera__del.data-v-127ba882 {
+  color: #1EA473;
+  margin-right: 16rpx;
+}
+.comment-container .comment-wrapper__content .comment-wrapper__opera .comment-opera__wrapper .comment-opera__time.data-v-127ba882 {
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #999;
+}
+.comment-container .comment-wrapper__other.data-v-127ba882 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1rpx solid #EBEBEB;
+  padding: 24rpx 0;
+}
+.comment-container .comment-wrapper__other .comment-other__user.data-v-127ba882 {
+  color: #333333;
+  font-size: 20rpx;
+  font-weight: bold;
+}
+.comment-container .comment-wrapper__other .comment-other__user .other-user__item.data-v-127ba882 {
+  display: flex;
+  padding: 5rpx 0;
+}
+.comment-container .comment-wrapper__other .comment-other__user .comment-other__name.data-v-127ba882 {
+  color: #1EA473;
+  margin-right: 15rpx;
+}
+.comment-container .comment-wrapper__other .comment-other__user .comment-other__name .comment-other__reply.data-v-127ba882 {
+  color: #333333;
+  padding: 0 5rpx;
+}
+.comment-container .comment-wrapper__other .comment-other__opera.data-v-127ba882 {
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #1EA473;
+}

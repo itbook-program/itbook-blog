@@ -1,0 +1,8 @@
+$side-padding: 32rpx;
+
+@mixin line1rpx {
+  &:after {
+    content: '';
+    height: 1rpx;
+  }
+}

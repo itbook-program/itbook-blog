@@ -1,0 +1,14 @@
+<import src="/components/CustomTabs/index.vue.wxml" />
+<import src="/components/CustomBookMarks/index.vue.wxml" /><template name="cad6f104">
+  <view class="_div data-v-b81fdbae bookmarks-container">
+    <view class="_div data-v-b81fdbae user-card">
+      <view class="_div data-v-b81fdbae user-card__title">我的书签</view>
+      <view class="_div data-v-b81fdbae user-card__balance">{{user.amount}}<label class="_span data-v-b81fdbae card-balance__text">书签</label></view>
+      <view class="_div data-v-b81fdbae user-card__btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">提现</view>
+    </view> <template bindcheckedItem="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="a05445d8"></template>
+    <view class="_div data-v-b81fdbae tab-items">
+      <view wx:if="{{tabIndex === 0}}" class="_div data-v-b81fdbae"><template data="{{...$root[$kk+'1'], $root}}" is="4e3b74c6"></template></view>
+      <view wx:elif="{{tabIndex === 1}}" class="_div data-v-b81fdbae"><template data="{{...$root[$kk+'2'], $root}}" is="4e3b74c6"></template></view>
+    </view>
+  </view>
+</template>

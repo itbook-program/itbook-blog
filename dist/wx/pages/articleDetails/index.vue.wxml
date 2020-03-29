@@ -1,0 +1,76 @@
+<import src="/components/CustomMask/index.vue.wxml" /><template name="59ccada1">
+  <view class="_div data-v-dc37d454 article-container">
+    <view class="_div data-v-dc37d454 article-content__container">
+      <view class="_div data-v-dc37d454 article-content__wrapper">
+        <view class="_div data-v-dc37d454 article-container__title">
+          {{articleDetail.title}}
+        </view>
+        <view class="_div data-v-dc37d454 article-container__user">
+          <view class="_div data-v-dc37d454 article-wrapper__userInfo">
+            <view class="_div data-v-dc37d454 container-user__avatar">
+              <image wx:if="{{articleDetail.user}}" src="{{articleDetail.user.avatarUrl}}" class="_img data-v-dc37d454"></image>
+            </view>
+            <view class="_div data-v-dc37d454 container-user__name">
+              <view wx:if="{{articleDetail.user}}" class="_div data-v-dc37d454 user-name__text">{{articleDetail.user.nickName}}</view>
+              <view class="_div data-v-dc37d454 user-name__date">{{articleDetail.updateAt}}</view>
+            </view>
+          </view>
+          <view wx:if="{{articleDetail.focus}}" class="_div data-v-dc37d454 article-wrapper__onFocus" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">已关注</view>
+          <view wx:else class="_div data-v-dc37d454 article-wrapper__focus" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">关注</view>
+        </view> <video play-btn-position="center" wx:if="{{articleDetail.resourceType === 1}}" src="{{videoUrl + articleDetail.cover}}" danmu-list="{{danmuList}}" bindtimeupdate="handleProxy" danmu-btn enable-danmu data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_video data-v-dc37d454"></video>
+        <ql-container class="_ql-container data-v-dc37d454">
+          <ql-editor class="_ql-editor data-v-dc37d454">
+            <rich-text class="_div data-v-dc37d454 article-content" nodes="{{articleDetail.content}}"></rich-text>
+          </ql-editor>
+        </ql-container>
+      </view>
+      <view class="_div data-v-dc37d454 user-info">
+        <view class="_div data-v-dc37d454 info-location">
+          <image src="{{locationIcon}}" class="_image data-v-dc37d454"></image> <label wx:if="{{articleDetail.location}}" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_span data-v-dc37d454">{{articleDetail.location.address}}</label><label wx:else class="_span data-v-dc37d454">暂无</label>
+        </view>
+        <view wx:if="{{articleDetail.attachs && articleDetail.attachs.length > 0}}" bindtap="handleProxy" class="_div data-v-dc37d454 info-attach" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+          <image src="{{attachIcon}}" class="_image data-v-dc37d454"></image> <label class="_span data-v-dc37d454">{{articleDetail.attachs[0].size || 0 }}MB</label>
+        </view>
+      </view>
+      <view class="_div data-v-dc37d454 article-user__wrapper">
+        <view class="_div data-v-dc37d454 content-user__title">
+          {{articleDetail.individSignature}}
+        </view>
+        <view class="_div data-v-dc37d454 content-user__avatar">
+          <view wx:key="index" key="{{index}}" class="_div data-v-dc37d454 user-avatar__item {{'avatar-item-' + (index + 1)}}" wx:for="{{articleDetail.lookList}}" wx:for-index="index" wx:for-item="item">
+            <image src="{{headerIcon}}" class="_img data-v-dc37d454"></image>
+          </view>
+        </view>
+        <view class="_div data-v-dc37d454 content-user__except" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}"> 打赏 </view>
+      </view>
+      <view class="_div data-v-dc37d454 article-comment__wrapper">
+        <view class="_div data-v-dc37d454 article-comment__nav" wx:if="{{articleComment.length > 0}}">评论（{{articleComment.length}}条）</view>
+        <view wx:key="index" key="{{index}}" class="_div data-v-dc37d454 comment-wrapper__item" wx:for="{{articleComment}}" wx:for-index="index" wx:for-item="commItem">
+          <view class="_div data-v-dc37d454 comment-user__avatar">
+            <image src="{{commItem.critics.avatarUrl}}" class="_img data-v-dc37d454"></image>
+          </view>
+          <view class="_div data-v-dc37d454 comment-user__content">
+            <view class="_div data-v-dc37d454 comment-item__user">
+              <view class="_div data-v-dc37d454 item-user__name">{{commItem.critics.nickName}}</view>
+              <view class="_div data-v-dc37d454 item-user__reply" bindtap="handleProxy" data-eventid="{{'6_'+index}}" data-comkey="{{$k}}">回复</view>
+            </view>
+            <view class="_div data-v-dc37d454 comment-item__text">{{commItem.content}}</view>
+            <view class="_div data-v-dc37d454 user-item__comments" wx:if="{{commItem.comments.length > 0}}">
+              <view wx:key="reIndex" key="{{reIndex}}" class="_div data-v-dc37d454 reply-comments__item" wx:for="{{commItem.comments}}" wx:for-index="reIndex" wx:for-item="replyItem">
+                <view class="_div data-v-dc37d454 reply-comments__name">{{replyItem.critics.nickName}}：</view>
+                <view class="_div data-v-dc37d454 reply-comments__comment">{{replyItem.content}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-dc37d454 footer-wrapper">
+        <view class="_div data-v-dc37d454 footer-input__box" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}"><input placeholder="我来说两句" disabled class="_input data-v-dc37d454 wrapper-input__item" type="text" /></view>
+        <view class="_div data-v-dc37d454 footer-wrapper__btn">
+          <view bindtap="handleProxy" data-eventid="{{'8'}}" data-comkey="{{$k}}" class="_div data-v-dc37d454">喜欢</view>
+          <view class="_div data-v-dc37d454">分享</view>
+        </view>
+      </view>
+    </view> <template wx:if="{{isExcept}}" bindclickMask="handleProxy" data-eventid="{{'13'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'2'], $root, $for:{default:'data-v-dc37d454-default-2'},$slotdefault:'data-v-dc37d454-default-2'}}" is="5e6bbf02"></template> <template wx:if="{{isComment}}" data="{{...$root[$kk+'3'], $root, $for:{default:'data-v-dc37d454-default-3'},$slotdefault:'data-v-dc37d454-default-3'}}" is="5e6bbf02"></template>
+  </view>
+</template>

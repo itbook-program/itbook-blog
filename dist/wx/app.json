@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/articleDetails/main",
+    "pages/me/main",
+    "pages/release/main",
+    "pages/myComment/main",
+    "pages/message/main",
+    "pages/comment/main",
+    "pages/attachment/main",
+    "pages/chat/main",
+    "pages/like/main",
+    "pages/notice/main",
+    "pages/attention/main",
+    "pages/bookmarks/main",
+    "pages/myArticle/main",
+    "pages/bookmarkReader/main",
+    "pages/userInfo/main",
+    "pages/signature/main",
+    "pages/withdrawal/main",
+    "pages/bindBankCard/main",
+    "pages/writerApply/main",
+    "pages/positioning/main",
+    "pages/preArticle/main",
+    "pages/newVideo/main",
+    "pages/history/main",
+    "pages/live/main",
+    "pages/feedback/main",
+    "pages/system/main",
+    "pages/room/main",
+    "pages/roomChat/main",
+    "pages/cartogram/main",
+    "pages/newAudio/main"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取当前位置范围1000m内的地点"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/home/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },{
+      "text": "发布",
+      "pagePath": "pages/release/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },{
+      "text": "消息",
+      "pagePath": "pages/message/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}

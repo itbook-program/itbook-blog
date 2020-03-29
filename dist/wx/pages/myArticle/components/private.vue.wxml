@@ -1,0 +1,32 @@
+<template name="1335cb7e">
+  <view class="_div data-v-b2810514">
+    <view class="_div data-v-b2810514 ptf-list__container">
+      <view wx:key="index" key="{{index}}" class="_div data-v-b2810514 ptf-list__wrapper" wx:for="{{itemData}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-b2810514 list-item__title"><label class="_span data-v-b2810514 item-title__text">{{item.title}}</label> <label class="_span data-v-b2810514 item-title__delBtn" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}">删除文章</label></view>
+        <view class="_div data-v-b2810514 list-item__content">
+          <view class="_div data-v-b2810514 item-content__text">{{item.contentText}}</view>
+          <view class="_div data-v-b2810514 item-content__cover"><video play-btn-position="center" object-fit="fill" wx:if="{{item.resourceType === 1}}" src="{{videoUrl + item.cover}}" class="_video data-v-b2810514"></video>
+            <image src="{{item.cover}}" class="_img data-v-b2810514"></image>
+          </view>
+        </view>
+        <view class="_div data-v-b2810514 list-item__opera">
+          <view class="_div data-v-b2810514 item-opera__wrapper">
+            <view class="_div data-v-b2810514 opera-opera__icon">
+              <image src="{{viewIcon}}" class="_img data-v-b2810514"></image>
+            </view>
+            <view class="_div data-v-b2810514 opera-item__num">{{item.looks}}</view>
+          </view>
+          <view class="_div data-v-b2810514 item-opera__wrapper">
+            <view class="_div data-v-b2810514 opera-opera__icon">
+              <image src="{{likeIcon}}" class="_img data-v-b2810514"></image>
+            </view>
+            <view class="_div data-v-b2810514 opera-item__num">{{item.likes}}</view>
+          </view>
+          <view class="_div data-v-b2810514 item-opera__wrapper">
+            <view class="_div data-v-b2810514 opera-item__num">{{item.updateAt}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

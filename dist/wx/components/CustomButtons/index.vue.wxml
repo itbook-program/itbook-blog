@@ -1,0 +1,3 @@
+<template name="8ca5a8fe">
+  <view class="_div data-v-6a891d94 custom-butttons__container"><button class="_button data-v-6a891d94 custom-button__wrapper {{checkDisabled}}" disabled="{{disabled}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">{{text}}</button></view>
+</template>

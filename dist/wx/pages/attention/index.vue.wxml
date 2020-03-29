@@ -1,0 +1,17 @@
+<import src="/components/CustomTags/index.vue.wxml" /><template name="42a21d42">
+  <view class="_div data-v-2feb07ec attention-container">
+    <view wx:key="index" key="{{index}}" class="_div data-v-2feb07ec attention-container__item" wx:for="{{attenList}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-2feb07ec attention-wrapper__user">
+        <view class="_div data-v-2feb07ec attiontion-user__avatar">
+          <image wx:if="{{item.user}}" src="{{item.user.avatarUrl}}" class="_img data-v-2feb07ec"></image>
+          <image wx:elif="{{item.receiver}}" src="{{item.receiver.avatarUrl}}" class="_img data-v-2feb07ec"></image>
+        </view>
+        <view class="_div data-v-2feb07ec attention-user__info">
+          <view class="_div data-v-2feb07ec user-info__name"><label wx:if="{{item.user}}" class="_span data-v-2feb07ec">{{item.user.nickName}}</label><label wx:elif="{{item.receiver}}" class="_span data-v-2feb07ec">{{item.receiver.nickName}}</label></view>
+          <view class="_div data-v-2feb07ec user-info__date"><label wx:if="{{item.user || item.receiver}}" class="_span data-v-2feb07ec">{{item.updateAt}}</label></view>
+        </view>
+      </view>
+      <view class="_div data-v-2feb07ec attention-wrapper__operation"><template title="已关注" type="attent-active" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0_'+index], $root}}" is="5363d022"></template></view>
+    </view>
+  </view>
+</template>

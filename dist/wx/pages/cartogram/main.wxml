@@ -1,0 +1,1 @@
+<import src="/pages/cartogram/index.vue.wxml" /><template is="86004b32" data="{{ ...$root['0'], $root }}"/>

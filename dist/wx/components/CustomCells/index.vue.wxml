@@ -1,0 +1,16 @@
+<template name="023ed091">
+  <view class="_div data-v-dbc600f4 cells-container__list">
+    <view wx:if="{{type === 'title'}}" class="_div data-v-dbc600f4 cells-content__item is-title {{[isDisabled ? 'is-disabled' : '']}}">
+      <view class="_div data-v-dbc600f4 cells-item__header">{{title}}</view>
+      <view class="_div data-v-dbc600f4 cells-item__text"><label bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_span data-v-dbc600f4">{{content}}</label></view>
+    </view>
+    <view wx:elif="{{type === 'text' && readOnly}}" class="_div data-v-dbc600f4 cells-content__item">
+      <view class="_div data-v-dbc600f4 cells-item__header">{{title}}</view>
+      <view class="_div data-v-dbc600f4 cells-item__text">{{content}}</view>
+    </view>
+    <view wx:elif="{{type === 'input' || (type === 'text' && !readOnly)}}" class="_div data-v-dbc600f4 cells-content__item">
+      <view class="_div data-v-dbc600f4 cells-item__header">{{title}}</view>
+      <view class="_div data-v-dbc600f4 cells-item__input"><input class="_input data-v-dbc600f4 cells-item__inputText" value="{{inputVal}}" bindinput="handleProxy" type="digit" maxlength="{{inputMaxlength}}" placeholder-class="cell-item__placeholder" placeholder="{{placeholder}}" data-eventid="{{'1'}}" data-comkey="{{$k}}" /></view>
+    </view>
+  </view>
+</template>

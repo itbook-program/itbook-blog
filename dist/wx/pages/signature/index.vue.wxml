@@ -1,0 +1,5 @@
+<import src="/components/CustomButtons/index.vue.wxml" /><template name="30f03079">
+  <view class="_div data-v-3a4bbb24 signature-container">
+    <view class="_div data-v-3a4bbb24 signature-content__container">
+      <view class="_div data-v-3a4bbb24 signature-content__title">个性签名</view>
+      <view class="_div data-v-3a4bbb24 signature-content__text"><textarea type="textarea" value="{{signText}}" bindinput="handleProxy" maxlength="{{100}}" placeholder="请输入签名" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_textarea data-v-3a4bbb24" /></view> <view class="_div data-v-3a4bbb24 signature-content__button"><template text="提 交" data="{{...$root[$kk+'0'], $root}}" is="8ca5a8fe"></template></view></view></view></template>

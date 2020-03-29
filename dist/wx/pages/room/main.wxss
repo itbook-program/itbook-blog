@@ -1,0 +1,23 @@
+@import "../../common/vendor.wxss";
+
+.chat-container.data-v-350f4245 {
+  padding: 32rpx;
+}
+.chat-container .chat-title.data-v-350f4245 {
+  margin: 30rpx auto;
+  font-size: 32rpx;
+  color: #333;
+  text-align: center;
+}
+.chat-container .chat-input.data-v-350f4245 {
+  text-align: center;
+  padding: 30rpx 0;
+}
+.chat-container .chat-button.data-v-350f4245 {
+  margin: 30rpx 5%;
+  color: #fff;
+  background-color: #1ea473;
+}
+.chat-container .chat-button.data-v-350f4245:active {
+  opacity: .8;
+}
